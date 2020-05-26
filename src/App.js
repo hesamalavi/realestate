@@ -14,12 +14,12 @@ function App() {
     return (
         <>
             <Navbar />
-            <switch>
+            <Switch>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/properties/" component={Properties} />
                 <Route exact path="/properties/:slug" component={Property} />
                 <Route component={Error} />
-            </switch>
+            </Switch>
         </>
     );
 }
