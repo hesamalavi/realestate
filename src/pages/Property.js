@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
+import Hero from '../components/Hero';
 
 export default class Property extends Component {
     render() {
-        return <div>Hello from Property page</div>;
+        return <Hero hero="roomsHero" />;
     }
 }

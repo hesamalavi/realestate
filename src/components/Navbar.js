@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from '../images/logo.svg';
 import { FiMenu } from 'react-icons/fi';
 import { FiHome } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
@@ -36,7 +35,7 @@ export default class Navbar extends Component {
                     >
                         <li>
                             <Link to="/">Home</Link>
-                            <Link to="/">Properties</Link>
+                            <Link to="/properties">Properties</Link>
                         </li>
                     </ul>
                 </div>
